@@ -14,6 +14,9 @@ namespace SmartHouse.MVC.MappingProfiles
             CreateMap<UserDTO, User>();
             CreateMap<UserDTO, UserPreviewModel>().ForMember(userPreview => userPreview.Devices, opt => opt.MapFrom(userDTO => userDTO.Devices.Select(user => user.Name)));
             CreateMap<CreateUserModel, UserDTO>();
+            CreateMap<UserWithDeviceValueDTO, User>();
+            CreateMap<User, UserWithDeviceValueDTO>();
+            CreateMap<UserWithDeviceValueDTO, UserDetailModel>();
         }
     }
 }

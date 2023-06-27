@@ -1,7 +1,7 @@
 ﻿@model UsersWithPaginationModel
 
-<a asp-action="CreateUser">Create User</a>
-<div class="dropdown">
+<a class="btn btn-primary" asp-action="CreateUser">Create User</a>
+@*<div class="dropdown">
     <a class="btn btn-secondary dropdown-toggle" asp-action="Home" asp-controller="Admin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         @Model.PageInfo.PageSize
     </a>
@@ -12,16 +12,49 @@
         <li><a class="dropdown-item" asp-action="Home" asp-controller="Admin" asp-route-pageSize="20">20</a></li>
         <li><a class="dropdown-item" asp-action="Home" asp-controller="Admin" asp-route-pageSize="50">50</a></li>
     </ul>
-</div>
-<div>
+</div>*@
+@*<div>
     @foreach(var user in Model.Users)
     {
         <h1>@user.Name</h1>
         <h3>@user.Email</h3>
-        <p>@{
-                var deviceString = user.Devices?.Count != 0 ? String.Join(", ", user.Devices) : new String("devices not found");
-                @deviceString
-            }</p >
+        <p>@(user.Devices?.Count != 0 ? String.Join(", ", user.Devices) : new String("devices not found"))</p >
     }
+</div>*@
+@*@foreach (var user in Model.Users)
+{
+<div class="card card-with-margin col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    <div class="card-body">
+        <h1 class="card-title"> @user.Id</h1>
+        <h3 class="card-subtitle">@user.Name</h3>
+        <h5 class="card-subtitle">@user.Email</h5>
+            <p class="card-text">@(user.Devices?.Count != 0 ? String.Join(", ", user.Devices) : new String("devices not found"))</p>
+        <a asp-action="Details" asp-controller="" asp-route-id="@user.Id" class="btn btn-primary">Detais</a>
+    </div>
 </div>
+}*@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Devices</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+        <tr>
+            <td>@user.Id</td>
+            <td>@user.Name</td>
+            <td>@user.Email</td>
+            <td>@(user.Devices?.Count != 0 ? String.Join(", ", user.Devices) : new String("devices not found"))</td>
+                <td><a class="btn btn-primary" asp-route-id="@user.Id" asp-action="Details">Edit</a>    <a class="btn btn-danger" asp-action="Delete">Delete</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
 <pagination page-info="Model.PageInfo" page-action="Home"></pagination>

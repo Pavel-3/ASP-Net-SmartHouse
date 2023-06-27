@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "k33gE2qCwrFjHaO9ErdVdo4zApMBHMXrSZBkzb125yQ=",
+  "Source": "SmartHouse.WebAPI",
+  "BasePath": "_content/SmartHouse.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

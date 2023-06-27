@@ -7,7 +7,7 @@ namespace SmartHouse.Repositories.Implementation
 {
     public class AdminRepository : Repository<Admin>, IAdminRepository
     {
-        AdminRepository(HouseContext houseContext) : base(houseContext) { }
+        public AdminRepository(HouseContext houseContext) : base(houseContext) { }
         public async Task<EntityEntry<Admin>> AddAsync(Admin admin)
         {
             var entityEntry = await DbContext.Admins.AddAsync(admin);

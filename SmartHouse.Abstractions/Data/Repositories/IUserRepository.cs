@@ -11,7 +11,7 @@ namespace SmartHouse.Abstractions.Data.Repositories
 {
     public interface IUserRepository : IRepository<User>
     {
-        public Task<IEnumerable<User>> GetUsersByPageAsync(int currentPage, int PageSize);
+        public Task<List<User>> GetUsersByPageAsync(int currentPage, int PageSize);
         public Task<EntityEntry<User>> AddAsync(User user);
     }
 }

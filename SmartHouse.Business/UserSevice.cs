@@ -1,42 +1,38 @@
-﻿using SmartHouse.Abstractions.Services;
+﻿using AutoMapper;
+using Microsoft.Extensions.Configuration;
+using SmartHouse.Abstractions.Data;
+using SmartHouse.Abstractions.Services;
 using SmartHouse.Core.DTOs;
 using SmartHouse.Data.Entities;
 using SmartHouse.Data.PassworStorage;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartHouse.Business
 {
     public class UserSevice : IUserService
     {
-        public Task<bool> IsUserExistsAsync(int id)
+        private readonly IConfiguration _configuration;
+        private readonly IMapper _mapper;
+        private readonly IUnitOfWork _unitOfWork;
+
+        public UserSevice(IConfiguration configuration, IMapper mapper, IUnitOfWork unitOfWork)
         {
-            throw new NotImplementedException();
+            _configuration = configuration;
+            _mapper = mapper;
+            _unitOfWork = unitOfWork;
         }
 
-        public Task LoginAsync(UserDTO user)
+        public async Task<int> GetTotalDevicesCountAsync(int id)
         {
-            throw new NotImplementedException();
+            var count = await _unitOfWork.Devices.CountAsync();
+            return count;
         }
-        public async Task RegistrateUserAsync(UserDTO userDTO)
+
+        public async Task<List<DeviceDTOWithValue>> GetDeicesByPageAsync(int id, int currentPage, int PageSize)
         {
-            var password = GetRandomPassword(10);
-            var passwordHash = "0"; //CreatePasswordHash(password);
-            userDTO.PasswordHash = passwordHash;
-            var entityEntry = await _unitOfWork.Users.AddAsync(_mapper.Map<User>(userDTO));
-            await _unitOfWork.CommitAsync();
-            var userId = entityEntry.Entity.Id;
-            var passwordModel = new Password()
-            {
-                PasswordString = password,
-                UserId = userId
-            };
-            userDTO.Devices.Select(dto => dto.Id = userId);
-            await _unitOfWork.Devices.AddRangeAsync(userDTO?.Devices.Select(dto => _mapper.Map<Device>(dto)));
-            await _unitOfWork.CommitAsync();
+            var devices = (await _unitOfWork.Devices.GetDeviceByPageAsync(id, currentPage, PageSize)).Select(device => _mapper.Map<DeviceDTOWithValue>(device)).ToList();
+            return devices;
         }
     }
 }

@@ -1,0 +1,44 @@
+﻿@using SmartHouse.Core.DTOs;
+@model DevicesWithPaginationModel
+@{
+    DeviceWithValueModel device;
+}
+<div>
+    @for (var i = 0; i < Model?.Devices.Count; i++)
+    {
+        <input type="hidden" value="@(device = Model.Devices[i])">
+        <div class="card card-with-margin">
+            <div class="card-body">
+                <h1 class="card-title">@((device.UserDefinedName == null || device.UserDefinedName == "") ? device.Name : device.UserDefinedName)</h1>
+        @switch (device.DeviceType)
+            {
+                case DeviceType.Sensor:
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" checked disabled>
+                        </div>
+                        break;
+                    case DeviceType.NumericalSensor:
+                    <p>@device.Value</p>
+                        break;
+                    case DeviceType.FeedbackDevice:
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked@i" checked>
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                        </div>
+                        break;
+                    case DeviceType.NumericalFeedbackDevice:
+                    <form asp-controller="User" asp-action="ChangeDeviceValue" class="row g-3 needs-validation" novalidate>
+                            <div class="input-group mb-3">
+                                <input asp-for ="@Model.Devices[i].Value" type="Name" class="form-control" value="@device.Value" aria-describedby="button-addon2">
+                                <input class="btn btn-outline-secondary" id="button-addon2" asp-controller="User" asp-action="ChangeDeviceValue" type="submit" value="change value">
+                                <intput asp-for="@Model.Devices[i].Id" value="@device.Id" type="hidden"/>
+                            </div>
+                        </form>
+                        break;
+            
+            }
+            </div>
+        </div>
+    }
+</div>
+<pagination page-info="Model.PageInfo" page-action="Home"></pagination>

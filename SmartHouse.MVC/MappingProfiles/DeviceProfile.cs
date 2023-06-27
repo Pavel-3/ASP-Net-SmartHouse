@@ -9,11 +9,15 @@ namespace SmartHouse.MVC.MappingProfiles
     {
         public DeviceProfile()
         {
-            CreateMap<Device, DeviceDTO>().ConvertUsing(device => Convert(device));
-            CreateMap<DeviceDTO, Device>().ConstructUsing(deviceDTO => Convert(deviceDTO));
+            CreateMap<Device, DeviceDTO>().ConvertUsing(device => ConvertToDeviceDTO(device));
+            CreateMap<DeviceDTO, Device>().ConvertUsing(deviceDTO => Convert(deviceDTO));
             CreateMap<DeviceModel, DeviceDTO>();
+            CreateMap<Device, DeviceDTOWithValue>().ConvertUsing(device => ConvertToDeviceDTOWithValue(device));
+            CreateMap<DeviceDTOWithValue, Device>().ConvertUsing(device => Convert(device));
+            CreateMap<DeviceWithValueModel, DeviceDTOWithValue>();
+            CreateMap<DeviceDTOWithValue, DeviceWithValueModel>();
         }
-        private DeviceDTO Convert(Device device)
+        private DeviceDTO ConvertToDeviceDTO(Device device)
         {
             switch (device)
             {
@@ -97,6 +101,85 @@ namespace SmartHouse.MVC.MappingProfiles
                     throw new ArgumentException();
             }
 
+        }
+        private Device Convert(DeviceDTOWithValue device)
+        {
+            switch (device.DeviceType)
+            {
+                case DeviceType.Sensor:
+                    throw new ArgumentException("cannot be converted DeviceDTOWithValue with DeviceType.Sensor. Use Convertation from DeviceDTO");
+
+                case DeviceType.NumericalSensor:
+                    throw new ArgumentException("cannot be converted DeviceDTOWithValue with DeviceType.NumericalSensor. Use Convertation from DeviceDTO");
+                case DeviceType.FeedbackDevice:
+                    return new FeedbackDevice()
+                    {
+                        Id = device.Id,
+                        Name = device.Name,
+                        UserId = device.UserId,
+                        RoomId = device.RoomId,
+                        Value = (bool)device.Value
+                    };
+                case DeviceType.NumericalFeedbackDevice:
+                    return new NuemericalFeedbackDevice()
+                    {
+                        Id = device.Id,
+                        Name = device.Name,
+                        UserId = device.UserId,
+                        RoomId = device.RoomId,
+                        Value = (float)device.Value
+                    };
+                default:
+                    throw new ArgumentException();
+            }
+        }
+        public DeviceDTOWithValue ConvertToDeviceDTOWithValue(Device device)
+        {
+            switch (device)
+            {
+                case Sensor sensor:
+                    return new DeviceDTOWithValue()
+                    {
+                        Id = sensor.Id,
+                        Name = sensor.Name,
+                        UserId = sensor.UserId,
+                        RoomId = sensor.RoomId,
+                        DeviceType = DeviceType.Sensor,
+                        Value = sensor.Value
+                    };
+                case NuemericalSensor nuemericalSensor:
+                    return new DeviceDTOWithValue()
+                    {
+                        Id = device.Id,
+                        Name = device.Name,
+                        UserId = device.UserId,
+                        RoomId = device.RoomId,
+                        DeviceType = DeviceType.NumericalSensor,
+                        Value = nuemericalSensor.Value
+                    };
+                case FeedbackDevice feedbackDevice:
+                    return new DeviceDTOWithValue()
+                    {
+                        Id = device.Id,
+                        Name = device.Name,
+                        UserId = device.UserId,
+                        RoomId = device.RoomId,
+                        DeviceType = DeviceType.FeedbackDevice,
+                        Value = feedbackDevice.Value
+                    };
+                case NuemericalFeedbackDevice nuemericalFeedbackDevice:
+                    return new DeviceDTOWithValue()
+                    {
+                        Id = device.Id,
+                        Name = device.Name,
+                        UserId = device.UserId,
+                        RoomId = device.RoomId,
+                        DeviceType = DeviceType.NumericalFeedbackDevice,
+                        Value = nuemericalFeedbackDevice.Value
+                    };
+                default:
+                    throw new ArgumentException();
+            }
         }
     }
 }

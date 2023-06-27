@@ -15,10 +15,11 @@ namespace SmartHouse.Repositories.Implementation
     public class UserRepository : Repository<User>, IUserRepository
     {
         public UserRepository(HouseContext houseContext) : base(houseContext) { }
-        public async Task<IEnumerable<User>> GetUsersByPageAsync(int currentPage, int pageSize)
+        public async Task<List<User>> GetUsersByPageAsync(int currentPage, int pageSize)
         {
             var result = await DbSet
                 .Include(user => user.Devices)
+                .OrderBy(user => user.Id)
                 .Skip((currentPage - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();

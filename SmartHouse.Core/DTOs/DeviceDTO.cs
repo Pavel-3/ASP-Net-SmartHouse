@@ -9,6 +9,7 @@ namespace SmartHouse.Core.DTOs
     public class DeviceDTO
     {
         public int Id { get; set; }
+        public string? UserDefinedName { get; set; }
         public string Name { get; set; }
         public int? UserId { get; set; }
         public int? RoomId { get; set; }

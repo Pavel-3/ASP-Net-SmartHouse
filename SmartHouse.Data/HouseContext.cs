@@ -50,18 +50,13 @@ namespace SmartHouse.Data
                 .WithMany(e => e.Devices)
                 .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<Device>().HasOne(e => e.Room).WithMany(e => e.Devices).OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<User>()
+                .HasMany(user => user.Devices)
+                .WithOne(e => e.User)
+                .OnDelete(DeleteBehavior.SetNull);
+
         }
         public HouseContext(DbContextOptions<HouseContext> options) : base(options) { }
-    }
-    public class HouseContextFactory : IDesignTimeDbContextFactory<HouseContext>
-    {
-        public HouseContext CreateDbContext(string[] args)
-        {
-            var optionsBuilder = new DbContextOptionsBuilder<HouseContext>();
-            optionsBuilder.UseSqlServer("your connection string");
-
-            return new HouseContext(optionsBuilder.Options);
-        }
     }
 
 }

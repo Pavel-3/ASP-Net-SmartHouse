@@ -1,16 +1,33 @@
 ﻿@model UserDetailModel
 
-<form asp-action="Details" asp-controller="Admin" method="post">
-    <div class="mb-3">
-        <label asp-for="Name" class="form-label">User Name</label>
-        <input type="Name" class="form-control" id="UserName" placeholder="UserName" value="@Model.Name" asp-for="Name">
-        <input asp-controller="Admin" asp-action="Detail" class="btn btn-primary" type="submit" value="Submit">
+<form asp-action="ChangeName" asp-controller="Admin" method="post">
+    <label class="form-label">User Name</label>
+    <div class="input-group mb-3">
+        <input type="Name" class="form-control" id="UserName" placeholder="UserName" value="@Model.Name" asp-for="Name" aria-describedby="button-addon2">
+        <input type="hidden" asp-for="Id" value="model.Id">
+        <input asp-for="Name" class="btn btn-outline-secondary" id="button-addon2" asp-controller="Admin" asp-action="ChangeName" type="submit" value="Change Name">
+
     </div>
+</form>
+<form asp-action="ChangeEmail" asp-controller="Admin" method="post">
     <div class="mb-3">
         <label asp-for="Email" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="Email" placeholder="name@example.com" value="@Model.Email" asp-for="Email">
+        <input type="email" class="form-control" id="Email" value="@Model.Email" asp-for="Email">
     </div>
     <div>
-        <input type="submit" value="Confirm" />
+        <input asp-controller="Admin" asp-action="Detail" class="btn btn-primary" type="submit" value="Change Email">
     </div>
+</form>
+<form asp-action="ChangeDevices" asp-controller="Admin" method="post">
+    @foreach(var device in Model.devices)
+    {
+        <div class="card card-with-margin col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card-body">
+                <h1 class="card-title"> @device.Id</h1>
+                <h3 class="card-subtitle">@device.Name</h3>
+                <h5 class="card-subtitle">@device.Value</h5>
+                <a asp-action="Details" asp-controller="Admin" class="btn btn-primary">Detais</a>
+            </div>
+        </div>
+    }
 </form>

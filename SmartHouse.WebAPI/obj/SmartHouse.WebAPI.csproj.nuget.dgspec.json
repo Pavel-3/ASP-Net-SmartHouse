@@ -1,0 +1,692 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj": {}
+  },
+  "projects": {
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj",
+        "projectName": "SmartHouse.Abstractions",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
+        "projectName": "SmartHouse.Buisiness",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj",
+        "projectName": "SmartHouse.Business",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj",
+        "projectName": "SmartHouse.Core",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
+        "projectName": "SmartHouse.Data.PassworStorage",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj",
+        "projectName": "SmartHouse.Data",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj",
+        "projectName": "SmartHouse.Repositories",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
+        "projectName": "SmartHouse.WebAPI",
+        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
+        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj"
+              },
+              "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
+                "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Settings.AppSettings": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Telegram.Alternative": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

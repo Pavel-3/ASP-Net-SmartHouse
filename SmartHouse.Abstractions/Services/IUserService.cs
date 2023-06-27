@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 
 namespace SmartHouse.Abstractions.Services
 {
-    public interface ILoginService
+    public interface IUserService
     {
-        Task<bool> IsUserExistsAsync(int id);
-        Task LoginAsync(UserDTO user);
+
+        Task<int> GetTotalDevicesCountAsync(int id);
+        Task<List<DeviceDTOWithValue>> GetDeicesByPageAsync(int id, int currentPage, int PageSize);
+
     }
 }

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace SmartHouse.Core.DTOs
 {
-    public class DeviceDTOWithValue<T> : DeviceDTO
+    public class DeviceDTOWithValue : DeviceDTO
     {
-        public T? Value { get; set; }
+        public object Value { get; set; }
     }
 
 }

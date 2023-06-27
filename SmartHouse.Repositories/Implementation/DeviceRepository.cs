@@ -57,9 +57,10 @@ namespace SmartHouse.Repositories.Implementation
             await DbContext.FeedbackDevices.AddRangeAsync(feedbackDevices);
             await DbContext.NuemericalFeedbackDevices.AddRangeAsync(nuemericalFeedbackDevices);
         }
-        public async Task<IEnumerable<Device>> GetDeviceByPageAsync(int currentPage, int pageSize)
+        public async Task<List<Device>> GetDeviceByPageAsync(int id, int currentPage, int pageSize)
         {
             var result = await DbSet
+                .OrderBy(device=> device.Id)
                 .Skip((currentPage - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();

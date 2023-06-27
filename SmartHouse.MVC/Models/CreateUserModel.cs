@@ -8,11 +8,13 @@ namespace SmartHouse.MVC.Models
     public class CreateUserModel
     {
         [Required]
+        [StringLength(500, MinimumLength = 1, ErrorMessage ="Name should be between 1 to 500 symbols")]
         public string Name { get; set; }
         [Required]
+        [EmailAddress]
         public string Email { get; set; }
-        [ValidateNever]
-        public List<RoomModel>? Rooms { get; set; }
+        //[ValidateNever]
+        //public List<RoomModel>? Rooms { get; set; }
         [ValidateNever]
         public List<DeviceModel>? Devices { get; set; }
     }

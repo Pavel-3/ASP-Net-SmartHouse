@@ -57,7 +57,8 @@ namespace SmartHouse.Repositories.Implementation
 
         public virtual async Task<TEntity?> GetByIdAsync(int id)
         {
-            return await DbSet.AsNoTracking().FirstOrDefaultAsync(entity => entity.Id == id); 
+            var user = await DbSet.AsNoTracking().FirstOrDefaultAsync(entity => entity.Id == id); 
+            return user;
         }
 
         public virtual async Task RemoveAsync(int id)

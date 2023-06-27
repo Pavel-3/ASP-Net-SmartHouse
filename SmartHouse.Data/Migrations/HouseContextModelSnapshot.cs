@@ -64,6 +64,9 @@ namespace SmartHouse.Data.Migrations
                     b.Property<int?>("RoomId")
                         .HasColumnType("int");
 
+                    b.Property<string>("UserDefinedName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("UserId")
                         .HasColumnType("int");
 
@@ -207,7 +210,7 @@ namespace SmartHouse.Data.Migrations
                     b.HasOne("SmartHouse.Data.Entities.User", "User")
                         .WithMany("Devices")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Room");
 

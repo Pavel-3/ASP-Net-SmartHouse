@@ -1,0 +1,20 @@
+﻿@model LoginModel
+<form asp-controller="Login" asp-action="Index" class="row g-3 needs-validation">
+    <span class="text-danger" asp-validation-for="Id"></span>
+    <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatingInput" placeholder="111111" asp-for="Id">
+        <label asp-for="Id">Id</label>
+    </div>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" asp-for="Password">
+        <label asp-for="Password">Password</label>
+    </div>
+    <div class="col-12">
+        <input class="btn btn-primary" type="submit" value="Login" />
+    </div>
+</form>
+@section Scripts
+    {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}

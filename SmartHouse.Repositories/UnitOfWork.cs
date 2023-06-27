@@ -15,24 +15,27 @@ namespace SmartHouse.Repositories
         private readonly IAdminRepository _adminRepository;
         private readonly IUserRepository _userRepository;
         private readonly IDeviceRepository _deviceRepository;
+        private readonly IPassworStorageRepository _passworStorageRepository;
         public UnitOfWork(HouseContext dbContext, 
             IAdminRepository adminRepository, 
             IUserRepository userRepository, 
             IDeviceRepository deviceRepository,
-            PassworStorageDbContext adminDbContext) 
+            PassworStorageDbContext adminDbContext,
+            IPassworStorageRepository passworStorageRepository) 
         { 
             _dbContext = dbContext;
             _adminRepository = adminRepository;
             _userRepository = userRepository;
             _deviceRepository = deviceRepository;
             _PassworStorageContext = adminDbContext;
+            _passworStorageRepository = passworStorageRepository;
         }
 
         public IAdminRepository Admins => _adminRepository;
         public IUserRepository Users => _userRepository;
         public IDeviceRepository Devices => _deviceRepository;
 
-        public IPassworStorageRepository PassworStorages => throw new NotImplementedException();
+        public IPassworStorageRepository PassworStorages => _passworStorageRepository;
 
         public async Task CommitAsync()
         {
@@ -48,9 +51,9 @@ namespace SmartHouse.Repositories
             GC.SuppressFinalize(this);
         }
 
-        public Task CommitPasswordStorageAsync()
+        public async Task CommitPasswordStorageAsync()
         {
-            _PassworStorageContext
+            await _PassworStorageContext.SaveChangesAsync();
         }
     }
 }

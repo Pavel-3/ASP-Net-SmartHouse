@@ -15,6 +15,7 @@ namespace SmartHouse.MVC.Controllers
 
         public IActionResult Index()
         {
+            var a = HttpContext;
             return View();
         }
 

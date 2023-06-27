@@ -1,82 +1,109 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SmartHouse.Abstractions.Services;
+using SmartHouse.Core.DTOs;
+using SmartHouse.MVC.Models;
+using System.Security.Claims;
+using Serilog;
 
 namespace SmartHouse.MVC.Controllers
 {
     public class LoginController : Controller
     {
-        // GET: LoginController
-        public ActionResult Index()
+
+        private readonly IMapper _mapper;
+        private readonly IUserService _userService;
+        private readonly IConfiguration _configuration;
+        private readonly IAuthenticatorService _authenticatorService;
+
+        public LoginController(IMapper mapper, IUserService userService, IConfiguration configuration, IAuthenticatorService authenticatorService)
         {
+            _mapper = mapper;
+            _userService = userService;
+            _configuration = configuration;
+            _authenticatorService = authenticatorService;
+        }
+
+        [HttpGet]
+        public IActionResult Index([FromQuery]string? returnUrl)
+        {
+            if (!string.IsNullOrEmpty(returnUrl))
+            {
+                var loginModel = new LoginModel()
+                {
+                    ReturnUrl = returnUrl
+                };
+                return View(loginModel);
+            }
             return View();
         }
 
-        // GET: LoginController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: LoginController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: LoginController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Index(LoginModel model)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if(await _authenticatorService.IsUserModelCorrect(model.Id, model.Password))
+                {
+                    await Authenticate(model.Id);
+                    if (!string.IsNullOrEmpty(model.ReturnUrl))
+                    {
+                        return Redirect(model.ReturnUrl);
+                    }
+                    return RedirectToAction(actionName: "Index",controllerName: "Home");
+                }
+                return View(model);
             }
             catch
             {
                 return View();
             }
         }
-
-        // GET: LoginController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: LoginController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [HttpGet]
+        public async Task<IActionResult> LogOut()
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                await HttpContext.SignOutAsync();
+                return RedirectToAction(actionName: "Index", controllerName: "Home");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                Log.Error(ex.Message);
+                return RedirectToAction("Index", "Home");
             }
         }
-
-        // GET: LoginController/Delete/5
-        public ActionResult Delete(int id)
+        [HttpGet]
+        public async Task<IActionResult> IsIdExists(int id)
         {
-            return View();
+            var result = await _authenticatorService.IsUserExistsAsync(id);
+            return Ok(result);
+            
         }
 
-        // POST: LoginController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        private async Task Authenticate(int id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                const string authType = "Application Cookie";
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimsIdentity.DefaultNameClaimType, id.ToString()),
+                    new Claim(ClaimsIdentity.DefaultRoleClaimType, await _authenticatorService.GetRoleByIdAsync(id))
+                };
+                var claimsIdentity = new ClaimsIdentity(claims,
+                    authType, 
+                    ClaimsIdentity.DefaultNameClaimType,
+                    ClaimsIdentity.DefaultRoleClaimType);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity));
             }
-            catch
+            catch(Exception ex)
             {
-                return View();
+                Log.Error(ex.Message);
             }
         }
     }

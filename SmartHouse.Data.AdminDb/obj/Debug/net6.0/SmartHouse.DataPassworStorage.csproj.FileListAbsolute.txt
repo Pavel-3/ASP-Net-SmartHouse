@@ -1,0 +1,14 @@
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.DataPassworStorage.deps.json
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.DataPassworStorage.runtimeconfig.json
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.DataPassworStorage.dll
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.DataPassworStorage.pdb
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.csproj.AssemblyReference.cache
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.AssemblyInfoInputs.cache
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.AssemblyInfo.cs
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.csproj.CoreCompileInputs.cache
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.dll
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\refint\SmartHouse.DataPassworStorage.dll
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.pdb
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.DataPassworStorage.genruntimeconfig.cache
+C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\ref\SmartHouse.DataPassworStorage.dll
