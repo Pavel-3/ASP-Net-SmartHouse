@@ -1,0 +1,16 @@
+﻿@model CreateUserModel
+
+<form asp-action="CreateUser" asp-controller="Admin" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">User Name</label>
+        <input type="Name" class="form-control" id="UserName" placeholder="UserName" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="Email" placeholder="name@example.com" asp-for="Email">
+    </div>
+    <div>
+        <input type="submit" value="Confirm" />
+    </div>
+</form>
+

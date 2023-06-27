@@ -1,0 +1,16 @@
+﻿@model UserDetailModel
+
+<form asp-action="Details" asp-controller="Admin" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">User Name</label>
+        <input type="Name" class="form-control" id="UserName" placeholder="UserName" value="@Model.Name" asp-for="Name">
+        <input asp-controller="Admin" asp-action="Detail" class="btn btn-primary" type="submit" value="Submit">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="Email" placeholder="name@example.com" value="@Model.Email" asp-for="Email">
+    </div>
+    <div>
+        <input type="submit" value="Confirm" />
+    </div>
+</form>

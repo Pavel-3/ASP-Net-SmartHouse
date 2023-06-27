@@ -1,0 +1,14 @@
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.AdminDb.deps.json
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.AdminDb.runtimeconfig.json
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.AdminDb.dll
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.AdminDb.pdb
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.csproj.AssemblyReference.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.AssemblyInfoInputs.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.AssemblyInfo.cs
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.csproj.CoreCompileInputs.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.dll
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\refint\SmartHouse.Data.AdminDb.dll
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.pdb
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.AdminDb.genruntimeconfig.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\ref\SmartHouse.Data.AdminDb.dll

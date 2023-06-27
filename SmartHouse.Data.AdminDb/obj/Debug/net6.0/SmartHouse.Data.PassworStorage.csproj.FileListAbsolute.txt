@@ -1,0 +1,14 @@
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.deps.json
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.runtimeconfig.json
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.dll
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.pdb
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.csproj.AssemblyReference.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.AssemblyInfoInputs.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.AssemblyInfo.cs
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.csproj.CoreCompileInputs.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.dll
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\refint\SmartHouse.Data.PassworStorage.dll
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.pdb
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.genruntimeconfig.cache
+C:\Users\asdfg\Projects\New folder\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\ref\SmartHouse.Data.PassworStorage.dll
