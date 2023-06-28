@@ -95,22 +95,44 @@ namespace SmartHouse.MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> ChangeName(UserDetailModel model)
         {
+            try
+            {
             await _adminService.PatchAsync(model.Id, new PatchDTO()
             {
                 PropertyName = "Name",
                 PropertyValue = model.Name
             });
-            return View(model);
+            return RedirectToAction("Home");
+            }
+            catch(Exception ex)
+            {
+                Log.Error(ex.Message);
+                return View(model);
+            }
         }
         [HttpPost]
         public async Task<IActionResult> ChangeEmail(UserDetailModel model)
         {
+            try
+            {
             await _adminService.PatchAsync(model.Id, new PatchDTO()
             {
                 PropertyName = "Email",
                 PropertyValue = model.Email
             });
-            return View(model);
+            return RedirectToAction("Home");
+            }
+            catch(Exception ex)
+            {
+                Log.Error(ex.Message);
+                return View(model);
+            }
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> ChangeDeviceValue (UserDetailModel user)
+        {
+            return RedirectToAction("Home");
         }
     }
 }

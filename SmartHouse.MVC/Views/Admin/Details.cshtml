@@ -4,12 +4,21 @@
     <label class="form-label">User Name</label>
     <div class="input-group mb-3">
         <input type="Name" class="form-control" id="UserName" placeholder="UserName" value="@Model.Name" asp-for="Name" aria-describedby="button-addon2">
-        <input type="hidden" asp-for="Id" value="model.Id">
+        <input type="hidden" asp-for="Id" value="@(Model.Id)">
         <input asp-for="Name" class="btn btn-outline-secondary" id="button-addon2" asp-controller="Admin" asp-action="ChangeName" type="submit" value="Change Name">
 
     </div>
 </form>
 <form asp-action="ChangeEmail" asp-controller="Admin" method="post">
+    <label class="form-label">Email address</label>
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" id="Email" placeholder="UserName" value="@Model.Email" asp-for="Email" aria-describedby="button-addon2">
+        <input type="hidden" asp-for="Id" value="@(Model.Id)">
+        <input asp-for="Email" class="btn btn-outline-secondary" id="button-addon2" asp-controller="Admin" asp-action="ChangeEmail" type="submit" value="Change Email">
+    </div>
+</form>
+
+@*<form asp-action="ChangeEmail" asp-controller="Admin" method="post">
     <div class="mb-3">
         <label asp-for="Email" class="form-label">Email address</label>
         <input type="email" class="form-control" id="Email" value="@Model.Email" asp-for="Email">
@@ -17,16 +26,27 @@
     <div>
         <input asp-controller="Admin" asp-action="Detail" class="btn btn-primary" type="submit" value="Change Email">
     </div>
-</form>
+</form>*@
+@{DeviceWithValueModel device;}
+
+
 <form asp-action="ChangeDevices" asp-controller="Admin" method="post">
-    @foreach(var device in Model.devices)
+    @for(int i = 0;i < Model.devices.Count; i++)
     {
-        <div class="card card-with-margin col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <input type="hidden" value="@(device = Model.devices[i])">
+        <div class="card card-with-margin mb-3">
             <div class="card-body">
-                <h1 class="card-title"> @device.Id</h1>
-                <h3 class="card-subtitle">@device.Name</h3>
+                <h3 class="card-title">
+                    <div class="input-group mb-3">
+@*                        <input type="text" class="form-control" id="DeviceName@(device.Id)" value="@device.Name" asp-for="devices[i].Id" aria-describedby="button-addon2">
+                        <input type="hidden" asp-for="devices[i]" value="@(device.Id)">
+                        <input type="hidden" asp-for="Id" value="@(Model.Id)">
+                        <input class="btn btn-outline-secondary" id="button-addon2" asp-controller="Admin" asp-action="ChangeDeviceValue" type="submit" value="Change Device Name">*@
+                        <p>@device.Name</p>
+                        <p>@device.Value</p>
+                    </div>
+                </h3>
                 <h5 class="card-subtitle">@device.Value</h5>
-                <a asp-action="Details" asp-controller="Admin" class="btn btn-primary">Detais</a>
             </div>
         </div>
     }

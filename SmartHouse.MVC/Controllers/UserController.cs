@@ -22,8 +22,8 @@ namespace SmartHouse.MVC.Controllers
         }
         public async Task<IActionResult> Index(int page = 1, int pageSize = 5)
         {
-            var userName = HttpContext.User.Identity?.Name;
-            if (int.TryParse(userName, out int id))
+            var userId = HttpContext.User.Identity?.Name;
+            if (int.TryParse(userId, out int id))
             {
                 var totalItems = await _userService.GetTotalDevicesCountAsync(id);
                 var pageInfo = new PageInfoModel()
