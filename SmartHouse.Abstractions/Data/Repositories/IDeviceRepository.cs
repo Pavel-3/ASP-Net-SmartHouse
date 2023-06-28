@@ -12,5 +12,6 @@ namespace SmartHouse.Abstractions.Data.Repositories
     {
         public Task<List<Device>> GetDeviceByPageAsync(int id, int currentPage, int pageSize);
         public Task<int> AddAsync(Device device);
+        public Task<int> CountDeviceByUserId(int userId);
     }
 }

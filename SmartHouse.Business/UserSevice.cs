@@ -25,7 +25,7 @@ namespace SmartHouse.Business
 
         public async Task<int> GetTotalDevicesCountAsync(int id)
         {
-            var count = await _unitOfWork.Devices.CountAsync();
+            var count = await _unitOfWork.Devices.CountDeviceByUserId(id);
             return count;
         }
 

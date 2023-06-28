@@ -30,5 +30,11 @@ namespace SmartHouse.Repositories.Implementation
             var entityEntry = await DbContext.Users.AddAsync(user);
             return entityEntry;
         }
+
+        public async Task<User> GetUserWithDeviceByIdAsync(int id)
+        {
+            var user = await DbSet.AsNoTracking().Include(user => user.Devices).FirstOrDefaultAsync(user => user.Id == id);
+            return user;
+        }
     }
 }

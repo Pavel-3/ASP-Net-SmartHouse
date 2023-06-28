@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rjpzQLgdyh90uj+aMSc9Ml14PwZY0Ndzv6n4zcAGBHjo8PiPdRb6RptjvceZ8T/M0aFpwlJs6AsnpM8xNshD7w==",
+  "dgSpecHash": "GcYyy0aQmCGSbmKX4+xyz0GbUAYIlWxUA/hlYntDt0tFiPUJtHsuHWB1XGuNa9lMMif840A5nK0n7shFefOWbQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asdfg\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\asdfg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

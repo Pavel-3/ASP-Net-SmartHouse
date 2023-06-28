@@ -71,13 +71,14 @@ namespace SmartHouse.WebAPI.Controllers
         [ProducesResponseType(typeof(UserResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status500InternalServerError)]
-        [Route("api/CreateUser")]
+        [Route("api/CreateAdmin")]
         public async Task<IActionResult> CreateAdmin([FromBody] AdminRequest user)
         {
             var adminDTO = _mapper.Map<AdminDTO>(user);
-            var userId = await _authenticatorService.(adminDTO);
-            var userResponse = await _adminService.GetUserByIdAsync(userId);
-            return Ok(userResponse);
+            var adminId = await _authenticatorService.RegisterAdminAsync(adminDTO);
+            var admin = await _adminService.GetAdminByIdAsync(adminId);
+            var adminResponse = _mapper.Map<AdminResponse>(admin);
+            return Ok(adminResponse);
         }
         // PUT api/<AdminController>/5
         //[HttpPut("{id}")]

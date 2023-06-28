@@ -57,6 +57,14 @@ namespace SmartHouse.Repositories.Implementation
             await DbContext.FeedbackDevices.AddRangeAsync(feedbackDevices);
             await DbContext.NuemericalFeedbackDevices.AddRangeAsync(nuemericalFeedbackDevices);
         }
+
+        public async Task<int> CountDeviceByUserId(int userId)
+        {
+            var device = DbSet.Where(device => device.UserId == userId).Select(device => device);
+            var count = await device.CountAsync();
+            return count;
+        }
+
         public async Task<List<Device>> GetDeviceByPageAsync(int id, int currentPage, int pageSize)
         {
             var result = await DbSet

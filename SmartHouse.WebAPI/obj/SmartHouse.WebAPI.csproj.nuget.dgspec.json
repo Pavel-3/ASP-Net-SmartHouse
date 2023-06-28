@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj": {}
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj",
         "projectName": "SmartHouse.Abstractions",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj"
               }
             }
           }
@@ -75,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
         "projectName": "SmartHouse.Buisiness",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,14 +102,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj"
               }
             }
           }
@@ -164,21 +166,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj",
         "projectName": "SmartHouse.Business",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,14 +192,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
               }
             }
           }
@@ -237,21 +240,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj",
         "projectName": "SmartHouse.Core",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -263,6 +266,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -296,21 +300,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
         "projectName": "SmartHouse.Data.PassworStorage",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -322,6 +326,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -375,21 +380,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj",
         "projectName": "SmartHouse.Data",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -401,14 +406,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
               }
             }
           }
@@ -464,21 +470,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj",
         "projectName": "SmartHouse.Repositories",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -490,23 +496,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj"
               }
             }
           }
@@ -536,21 +543,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj": {
+    "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
         "projectName": "SmartHouse.WebAPI",
-        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
+        "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "G:\\Programming\\Data\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -562,32 +569,33 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj"
               },
-              "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
-                "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj"
+              "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
+                "projectPath": "C:\\Users\\asdfg\\YandexDisk\\Учебники\\програмирование\\New folder (2)\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj"
               }
             }
           }
@@ -676,7 +684,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

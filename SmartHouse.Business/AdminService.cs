@@ -46,8 +46,14 @@ namespace SmartHouse.Business
 
         public async Task<UserWithDeviceValueDTO> GetUserByIdAsync(int id)
         {
-            var user = _mapper.Map<UserWithDeviceValueDTO>(await _unitOfWork.Users.GetByIdAsync(id));
+            var user = _mapper.Map<UserWithDeviceValueDTO>(await _unitOfWork.Users.GetUserWithDeviceByIdAsync(id));
             return user;
+        }
+
+        public async Task<AdminDTO> GetAdminByIdAsync(int id)
+        {
+            var admin = _mapper.Map<AdminDTO>(await _unitOfWork.Admins.GetByIdAsync(id));
+            return admin;
         }
     }
 }

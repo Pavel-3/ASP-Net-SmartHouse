@@ -13,5 +13,6 @@ namespace SmartHouse.Abstractions.Data.Repositories
     {
         public Task<List<User>> GetUsersByPageAsync(int currentPage, int PageSize);
         public Task<EntityEntry<User>> AddAsync(User user);
+        public Task<User> GetUserWithDeviceByIdAsync(int id);
     }
 }
