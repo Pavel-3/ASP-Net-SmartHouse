@@ -12,7 +12,7 @@ using SmartHouse.Data;
 namespace SmartHouse.Data.Migrations
 {
     [DbContext(typeof(HouseContext))]
-    [Migration("20230619091021_InitDB")]
+    [Migration("20230628083933_InitDB")]
     partial class InitDB
     {
         /// <inheritdoc />
@@ -34,6 +34,10 @@ namespace SmartHouse.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -62,6 +66,9 @@ namespace SmartHouse.Data.Migrations
 
                     b.Property<int?>("RoomId")
                         .HasColumnType("int");
+
+                    b.Property<string>("UserDefinedName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("UserId")
                         .HasColumnType("int");
@@ -112,6 +119,10 @@ namespace SmartHouse.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -202,7 +213,7 @@ namespace SmartHouse.Data.Migrations
                     b.HasOne("SmartHouse.Data.Entities.User", "User")
                         .WithMany("Devices")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Room");
 

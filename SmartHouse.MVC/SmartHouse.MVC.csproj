@@ -33,6 +33,7 @@
     <ProjectReference Include="..\SmartHouse.Data.AdminDb\SmartHouse.Data.PassworStorage.csproj" />
     <ProjectReference Include="..\SmartHouse.Data\SmartHouse.Data.csproj" />
     <ProjectReference Include="..\SmartHouse.Repositories\SmartHouse.Repositories.csproj" />
+    <ProjectReference Include="..\SmartHouse.WebAPI\SmartHouse.WebAPI.csproj" />
   </ItemGroup>
 
 </Project>

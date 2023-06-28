@@ -11,8 +11,8 @@ using SmartHouse.Data.PassworStorage;
 namespace SmartHouse.Data.PassworStorage.Migrations
 {
     [DbContext(typeof(PassworStorageDbContext))]
-    [Migration("20230623105753_InitDb")]
-    partial class InitDb
+    [Migration("20230628084059_InitDB")]
+    partial class InitDB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

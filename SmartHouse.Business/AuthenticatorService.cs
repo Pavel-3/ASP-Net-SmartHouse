@@ -87,6 +87,23 @@ namespace SmartHouse.Business
             }
             throw new ArgumentException("User not found");
         }
+        public async Task<int> RegisterAdminAsync(AdminDTO admin)
+        {
+            var password = GetRandomPassword(10);
+            var passwordHash = GetPasswordHash(password);
+            admin.PasswordHash = passwordHash;
+            var entityEntry = await _unitOfWork.Admins.AddAsync(_mapper.Map<Admin>(admin));
+            await _unitOfWork.CommitAsync();
+            var adminId = entityEntry.Entity.Id;
+            var passwordModel = new Password()
+            {
+                PasswordString = password,
+                UserId = adminId
+            };
+            await _unitOfWork.PassworStorages.AddPasswordAsync(passwordModel);
+            await _unitOfWork.CommitPasswordStorageAsync();
+            return adminId;
+        }
 
         private string GetRandomPassword(int length)
         {

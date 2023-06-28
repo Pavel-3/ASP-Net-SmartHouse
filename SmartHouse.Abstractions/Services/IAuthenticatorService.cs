@@ -13,5 +13,6 @@ namespace SmartHouse.Abstractions.Services
         Task<bool> IsUserExistsAsync(int id);
         Task<int> RegistrateUserAsync(UserDTO user);
         Task<string> GetRoleByIdAsync(int id);
+        Task<int> RegisterAdminAsync(AdminDTO admin);
     }
 }

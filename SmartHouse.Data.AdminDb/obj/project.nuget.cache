@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9IQOcxzvDwNSSxUtT6WUaoW/ruonLLmGmbls5QEjbeSWxSZ9x/wkkAIxQzq/LbKCD2PYG3rD6r/fCDA8B4Aetw==",
+  "dgSpecHash": "Bk/DF9dcgI0gTwJT3JYaFQY6ulMbIk7HTA4YmJSDh9siybJ8jZlsm4iwEn9i0wCG1kqDPjQL+KKBL+leseVWyA==",
   "success": true,
-  "projectFilePath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
+  "projectFilePath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asdfg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\asdfg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

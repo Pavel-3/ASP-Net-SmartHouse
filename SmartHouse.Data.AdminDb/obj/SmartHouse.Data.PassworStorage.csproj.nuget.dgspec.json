@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {}
+    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {}
   },
   "projects": {
-    "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+    "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
+        "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
         "projectName": "SmartHouse.Data.PassworStorage",
-        "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
+        "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj",
         "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-        "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\obj\\",
+        "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "G:\\Programming\\Data\\Components\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

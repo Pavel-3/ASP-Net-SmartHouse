@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "meEpPjQbEez60qphc7XXni5RzV01O3/G7jqMbj0hLIt1q3sgiRgfH2ZepRlc8tFl4vVd8L3Ky0ySIvgLjFO04Q==",
+  "dgSpecHash": "0vlx5tQ8EUkz5+u7nFYEzwOayV+YWFEvT4ZSC3Q6kKwpCjsFZQZPC0TCfB89ysW5tMhI78+yd6ajUOjjjltl9A==",
   "success": true,
-  "projectFilePath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
+  "projectFilePath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asdfg\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\asdfg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

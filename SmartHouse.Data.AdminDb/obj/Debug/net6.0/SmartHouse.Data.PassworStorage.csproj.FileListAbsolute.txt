@@ -26,3 +26,17 @@ C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.
 C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.pdb
 C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.genruntimeconfig.cache
 C:\Users\asdfg\OneDrive\Документы\GitHub\ASP-NET-Couse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\ref\SmartHouse.Data.PassworStorage.dll
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.csproj.AssemblyReference.cache
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.AssemblyInfoInputs.cache
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.AssemblyInfo.cs
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.csproj.CoreCompileInputs.cache
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.dll
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\refint\SmartHouse.Data.PassworStorage.dll
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.pdb
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.deps.json
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.runtimeconfig.json
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.dll
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\bin\Debug\net6.0\SmartHouse.Data.PassworStorage.pdb
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\SmartHouse.Data.PassworStorage.genruntimeconfig.cache
+C:\Projects\ASP-Net-SmartHouse\SmartHouse.Data.AdminDb\obj\Debug\net6.0\ref\SmartHouse.Data.PassworStorage.dll

@@ -199,11 +199,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/7.0.8": {
+      "Microsoft.EntityFrameworkCore/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.8",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.8",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.5",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -222,7 +222,7 @@
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.5": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -235,7 +235,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.5": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -244,11 +244,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Design/7.0.5": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.8",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
           "Microsoft.Extensions.DependencyModel": "7.0.0",
           "Mono.TextTemplating": "2.2.1"
         },
@@ -266,10 +266,10 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Relational/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.8",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "compile": {
@@ -300,10 +300,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.8": {
+      "Microsoft.EntityFrameworkCore.Tools/7.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "7.0.8"
+          "Microsoft.EntityFrameworkCore.Design": "7.0.5"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -3524,10 +3524,10 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.EntityFrameworkCore/7.0.8": {
-      "sha512": "J4eNwnGsaEeudWGvgEO+n9u5XYfKb/QmMjLPH/T2xUBKzuZsJ7nyNoEtNDo3DhQqyDHPxf2fDSuUwSJQFEj6JQ==",
+    "Microsoft.EntityFrameworkCore/7.0.5": {
+      "sha512": "RXbRLHHWP2Z3pq8qcL5nQ6LPeoOyp8hasM5bd0Te8PiQi3RjWQR4tcbdY5XMqQ+oTO9wA8/RLhZRn/hnxlTDnQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/7.0.8",
+      "path": "microsoft.entityframeworkcore/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3535,42 +3535,42 @@
         "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.8": {
-      "sha512": "4+Kj43oGUHPneA/uZurt9Nj9NZt8PBV0vMI+iKOUhmHXQKCkRUzpJaRKIZ1QLy8LiEL5D3/AIRfclgokdJnINQ==",
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.5": {
+      "sha512": "iwQso+hFRsEWjhH2WsEQj1D2QE5BlEXiXEt6A3SlYTPRPdZsyTNDeDDEdtxL+H/UJPQgQYY+9SMMRcEiXBmCAA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.8",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.8": {
-      "sha512": "FSEFD1j4HerUaPyOZ0/NQjZZBkxqDSx2ZKEZXOz1aOQz7PY2f1D6ZuIBTLF8zAq11f058O2cl72GXVRMfwQ5iw==",
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.5": {
+      "sha512": "yMLM/aK1MikVqpjxd7PJ1Pjgztd3VAd26ZHxyjxG3RPeM9cHjvS5tCg9kAAayR6eHmBg0ffZsHdT28WfA5tTlA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.8",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.8": {
-      "sha512": "dG+QxTeRZhtEbsN+VXF2D5z6kT1/pOFRkSTXnggugqTz3p7qSceyLqJoyGZXI8l3YsmDywgD7yfxvcy0X8uZMA==",
+    "Microsoft.EntityFrameworkCore.Design/7.0.5": {
+      "sha512": "fzoU+Jk/chkqVOzDjuF+fwdc/6Tyqbp9L7rDORqB6IwHRG7nr+QnFOPdRi3B5kAZldvsvhUt+6Cl5qzeLT7B0Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/7.0.8",
+      "path": "microsoft.entityframeworkcore.design/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3578,21 +3578,21 @@
         "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.7.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/7.0.8": {
-      "sha512": "C9NYwZdtAd0Ov2jQz4vNplifA/zmvn7BN6k7HrxRdbK4pdg18mFDQAedkJX2hGngNEMwssapzlRhsUSV0Q34rA==",
+    "Microsoft.EntityFrameworkCore.Relational/7.0.5": {
+      "sha512": "u/33DC4S6g2hpMPgBc5Kdnlz//nqHR5c/ovgjtiP/wQ7sOd0EOdygVzUJAAOxCwbtAHDsJXS9Vc3jLFYq0yu8Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/7.0.8",
+      "path": "microsoft.entityframeworkcore.relational/7.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -3610,17 +3610,17 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.8": {
-      "sha512": "98zo4OdBnPXYVD+Fl+a5ofsVLokd9hsp9W1D+VeuIowG0Cbxr2gQ9PqCIqOXxafl5ykKlbO+Bmn7lLRclMOq4Q==",
+    "Microsoft.EntityFrameworkCore.Tools/7.0.5": {
+      "sha512": "OV/PUGBVSbQVd2daTeXoMBoao2qtfBgT2TuaYo48xRYUS2gH++f8OFiZc6zwASqkMKgs1/t5uVlxgKl18m/1Fw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/7.0.8",
+      "path": "microsoft.entityframeworkcore.tools/7.0.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.tools.7.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -9417,8 +9417,8 @@
     "net6.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "Microsoft.EntityFrameworkCore >= 7.0.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.8",
+      "Microsoft.EntityFrameworkCore >= 7.0.5",
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Serilog >= 3.0.1",
       "Serilog.AspNetCore >= 7.0.0",
@@ -9439,19 +9439,19 @@
   },
   "packageFolders": {
     "C:\\Users\\asdfg\\.nuget\\packages\\": {},
-    "G:\\Programming\\Data\\Components\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
+      "projectUniqueName": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
       "projectName": "SmartHouse.WebAPI",
-      "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
+      "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\SmartHouse.WebAPI.csproj",
       "packagesPath": "C:\\Users\\asdfg\\.nuget\\packages\\",
-      "outputPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.WebAPI\\obj\\",
+      "outputPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "G:\\Programming\\Data\\Components\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\asdfg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9463,33 +9463,32 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
-              "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
+            "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj": {
+              "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Abstractions\\SmartHouse.Abstractions.csproj"
             },
-            "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
-              "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj"
+            "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj": {
+              "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Buisiness\\SmartHouse.Buisiness.csproj"
             },
-            "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
-              "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Business\\SmartHouse.Business.csproj"
+            "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj": {
+              "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Business\\SmartHouse.Business.csproj"
             },
-            "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
-              "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Core\\SmartHouse.Core.csproj"
+            "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj": {
+              "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Core\\SmartHouse.Core.csproj"
             },
-            "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
-              "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
+            "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj": {
+              "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data.AdminDb\\SmartHouse.Data.PassworStorage.csproj"
             },
-            "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
-              "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Data\\SmartHouse.Data.csproj"
+            "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj": {
+              "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Data\\SmartHouse.Data.csproj"
             },
-            "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
-              "projectPath": "G:\\Programming\\New folder\\ASP-NET-Couse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj"
+            "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj": {
+              "projectPath": "C:\\Projects\\ASP-Net-SmartHouse\\SmartHouse.Repositories\\SmartHouse.Repositories.csproj"
             }
           }
         }
@@ -9514,13 +9513,13 @@
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[7.0.8, )"
+            "version": "[7.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[7.0.8, )"
+            "version": "[7.0.5, )"
           },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
@@ -9578,7 +9577,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

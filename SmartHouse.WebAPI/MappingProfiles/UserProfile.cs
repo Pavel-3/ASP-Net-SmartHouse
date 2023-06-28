@@ -17,6 +17,7 @@ namespace SmartHouse.WebAPI.MappingProfiles
             CreateMap<User,UserWithDeviceValueDTO>();
             CreateMap<UserWithDeviceValueDTO, UserResponse>();
             CreateMap<UserRequest, UserDTO>();
+            CreateMap<UserDTO, User>();
         }
     }
 }
